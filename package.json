@@ -5,13 +5,14 @@
   "type": "module",
   "homepage": "https://your-bluefrag22.github.io/invitation-website",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+    },
+
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
